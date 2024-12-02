@@ -9,7 +9,8 @@
 - Or, if you have Docker installed on your machine, you can follow this 5 min [tutorial](https://tecadmin.net/docker-compose-for-mysql-with-phpmyadmin/)
 - update the backend environment file at `back/src/main/resources/application.properties`
 
-SQL script for creating the schema is available `ressources/sql/script.sql`
+SQL script for creating the schema is available at the root level `ressources/sql/script.sql`
+![sql-and-json](https://github.com/user-attachments/assets/63560c19-b141-4149-be6e-f7cbda6e59a7)
 
 By default the admin account is:
 
@@ -43,3 +44,10 @@ By default the admin account is:
 - run the command `mvn clean test`
 
 ### Frontend tests
+Several commands are available : 
+- `npm run e2e` for e2e tests
+- `npm run e2e:coverage` for e2e tests coverage (the html file is available at `front/coverage/lcov-report/index.html`
+-  `npm run test` to launch unit tests only one time
+-  `npm run test:watch` for development, the tests are replayed after each change in the code
+
+
