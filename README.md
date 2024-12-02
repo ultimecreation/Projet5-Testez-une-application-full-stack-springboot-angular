@@ -28,3 +28,12 @@ Note : Feel free to update the backend environment file at `back/src/main/resour
 - Find your main app file located at `back/src/main/java/com/openclassrooms/starterjwt/SpringBootSecurityJwtApplication.java` and click on the `Run` button or on the arraow on the top right corner.
 
   ![back_2](https://github.com/user-attachments/assets/0ff7160c-edc5-49c3-99f3-927e22e7fdf8)
+
+## Testing
+
+### Backend tests
+
+- open your integrated terminal and navigate to your `back` folder
+- run the command `mvn clean test`
+
+### Frontend tests
