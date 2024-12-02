@@ -7,8 +7,14 @@
 - You can follow this [tutorial](https://openclassrooms.com/fr/courses/6971126-implementez-vos-bases-de-donnees-relationnelles-avec-sql)
 - You can also use [Xampp to get mysql and phpMyAdmin easily](https://www.apachefriends.org/)
 - Or, if you have Docker installed on your machine, you can follow this 5 min [tutorial](https://tecadmin.net/docker-compose-for-mysql-with-phpmyadmin/)
+- update the backend environment file at `back/src/main/resources/application.properties`
 
-Note : Feel free to update the backend environment file at `back/src/main/resources/application.properties`
+SQL script for creating the schema is available `ressources/sql/script.sql`
+
+By default the admin account is:
+
+- login: yoga@studio.com
+- password: test!1234
 
 ### frontend
 
