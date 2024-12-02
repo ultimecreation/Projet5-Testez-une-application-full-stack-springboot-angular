@@ -2,7 +2,16 @@
 
 ## Local project setup
 
+### Setup Mysql and PhpMyAdmin
+
+- You can follow this [tutorial](https://openclassrooms.com/fr/courses/6971126-implementez-vos-bases-de-donnees-relationnelles-avec-sql)
+- You can also use [Xampp to get mysql and phpMyAdmin easily](https://www.apachefriends.org/)
+- Or, if you have Docker installed on your machine, you can follow this 5 min [tutorial](https://tecadmin.net/docker-compose-for-mysql-with-phpmyadmin/)
+
+Note : Feel free to update the backend environment file at `back/src/main/resources/application.properties`
+
 ### frontend
+
 - Clone this repository on your local machine
 - Navigate to your `front` folder and run the command `npm install` in your integrated terminal
 
@@ -14,6 +23,7 @@
   ![front_2](https://github.com/user-attachments/assets/a04c4cf3-ef9b-4fbb-8638-bfb251cd89da)
 
 ### backend
+
 - Navigate to your `back` folder.
 - Find your main app file located at `back/src/main/java/com/openclassrooms/starterjwt/SpringBootSecurityJwtApplication.java` and click on the `Run` button or on the arraow on the top right corner.
 
