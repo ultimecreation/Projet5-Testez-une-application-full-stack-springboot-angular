@@ -48,7 +48,7 @@ describe('LoginComponent', () => {
     beforeEach(async () => {
 
         mockedAuthService = {
-            login: jest.fn().mockReturnValue({ subscribe: jest.fn })
+            login: jest.fn().mockReturnValue({ subscribe: jest.fn() })
         }
         mockedRouter = {
             navigate: jest.fn()
