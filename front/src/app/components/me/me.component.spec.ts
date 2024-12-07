@@ -108,4 +108,10 @@ describe('MeComponent', () => {
         expect(mockedSessionService.logOut).toHaveBeenCalled()
         expect(mockedRouter.navigate).toHaveBeenCalledWith(["/"])
     })
+
+    it('Should navigate back', () => {
+        const historySpy = jest.spyOn(window.history, 'back')
+        component.back()
+        expect(historySpy).toHaveBeenCalled()
+    })
 });
