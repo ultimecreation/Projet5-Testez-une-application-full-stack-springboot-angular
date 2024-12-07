@@ -12,7 +12,6 @@ import { RegisterComponent } from './register.component';
 import { AuthService } from '../../services/auth.service';
 import { of, throwError } from 'rxjs';
 import { Router } from '@angular/router';
-import { phl } from '@angular-extensions/pretty-html-log';
 import { RegisterRequest } from '../../interfaces/registerRequest.interface';
 
 

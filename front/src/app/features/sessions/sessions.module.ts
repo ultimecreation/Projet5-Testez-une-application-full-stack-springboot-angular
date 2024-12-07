@@ -14,30 +14,31 @@ import { FormComponent } from './components/form/form.component';
 import { DetailComponent } from './components/detail/detail.component';
 import { SessionsRoutingModule } from './sessions-routing.module';
 import localeFr from '@angular/common/locales/fr';
+import { ActivatedRoute, RouterLink, RouterModule } from '@angular/router';
 registerLocaleData(localeFr);
 
 const materialModules = [
-  MatButtonModule,
-  MatCardModule,
-  MatFormFieldModule,
-  MatIconModule,
-  MatInputModule,
-  MatSnackBarModule,
-  MatSelectModule
+    MatButtonModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatInputModule,
+    MatSnackBarModule,
+    MatSelectModule
 ];
 
 @NgModule({
-  declarations: [
-    ListComponent,
-    FormComponent,
-    DetailComponent
-  ],
-  imports: [
-    CommonModule,
-    FlexLayoutModule,
-    ReactiveFormsModule,
-    SessionsRoutingModule,
-    ...materialModules
-  ]
+    declarations: [
+        ListComponent,
+        FormComponent,
+        DetailComponent
+    ],
+    imports: [
+        CommonModule,
+        FlexLayoutModule,
+        ReactiveFormsModule,
+        SessionsRoutingModule,
+        ...materialModules
+    ]
 })
 export class SessionsModule { }
