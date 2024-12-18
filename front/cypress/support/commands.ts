@@ -41,3 +41,21 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.Commands.add("loginUser", (email = "{enter}", password = "{enter}") => {
+    /**
+     * admin credentials
+     * email => yoga@studio.com
+     * password => test!1234
+     */
+
+    cy.get('input[formControlName=email]').type(email)
+    cy.get('input[formControlName=password]').type(password)
+
+})
+
+Cypress.Commands.add("logoutUser", () => {
+    cy.get('[data-testId="logoutBtn"]').click()
+
+
+})
