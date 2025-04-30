@@ -6,7 +6,10 @@
 ### Tests backend
  ![yoga-app-backend-coverage](https://github.com/user-attachments/assets/d57cec42-06f7-44db-8f3c-bcac139e13df)
 
-  
+### Frontend unit and integration tests
+
+ ![yoga-app-front-coverage](https://github.com/user-attachments/assets/3805e741-3b51-46ec-b5ad-19b4750a1475)
+
 ## Local project setup
 
 ### Setup Mysql and PhpMyAdmin
