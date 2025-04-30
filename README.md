@@ -10,6 +10,10 @@
 
  ![yoga-app-front-coverage](https://github.com/user-attachments/assets/3805e741-3b51-46ec-b5ad-19b4750a1475)
 
+### Fullstack Cypress coverage
+![yoga-app-cypress-coverage](https://github.com/user-attachments/assets/f713e373-52de-4f90-abfb-a3db41b61bae)
+
+
 ## Local project setup
 
 ### Setup Mysql and PhpMyAdmin
