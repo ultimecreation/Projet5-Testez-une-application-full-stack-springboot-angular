@@ -31,6 +31,7 @@ By default the admin account is:
 - login: yoga@studio.com
 - password: test!1234
 
+
 ### frontend
 
 - Clone this repository on your local machine
