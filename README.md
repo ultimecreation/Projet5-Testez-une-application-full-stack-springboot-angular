@@ -1,5 +1,12 @@
 # Yoga-app
+- Pour ce projet,j'ai été chargé de :
+  -  réaliser des tests unitaires et fonctionnels sur l'application (controllers,security,services....)
+  - Réaliser les tests E2E avec cypress
 
+### Tests backend
+ ![yoga-app-backend-coverage](https://github.com/user-attachments/assets/d57cec42-06f7-44db-8f3c-bcac139e13df)
+
+  
 ## Local project setup
 
 ### Setup Mysql and PhpMyAdmin
