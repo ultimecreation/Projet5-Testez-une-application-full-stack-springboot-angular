@@ -1,4 +1,18 @@
 # Yoga-app
+- Pour ce projet,j'ai été chargé de :
+  -  réaliser des tests unitaires et fonctionnels sur l'application (controllers,security,services....)
+  - Réaliser les tests E2E avec cypress
+
+### Tests backend
+ ![yoga-app-backend-coverage](https://github.com/user-attachments/assets/d57cec42-06f7-44db-8f3c-bcac139e13df)
+
+### Frontend unit and integration tests
+
+ ![yoga-app-front-coverage](https://github.com/user-attachments/assets/3805e741-3b51-46ec-b5ad-19b4750a1475)
+
+### Fullstack Cypress coverage
+![yoga-app-cypress-coverage](https://github.com/user-attachments/assets/f713e373-52de-4f90-abfb-a3db41b61bae)
+
 
 ## Local project setup
 
@@ -16,6 +30,7 @@ By default the admin account is:
 
 - login: yoga@studio.com
 - password: test!1234
+
 
 ### frontend
 
