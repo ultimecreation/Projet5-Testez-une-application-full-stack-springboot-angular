@@ -6,20 +6,22 @@ import { Session } from '../../interfaces/session.interface';
 import { SessionApiService } from '../../services/session-api.service';
 
 @Component({
-  selector: 'app-list',
-  templateUrl: './list.component.html',
-  styleUrls: ['./list.component.scss']
+    selector: 'app-list',
+    templateUrl: './list.component.html',
+    styleUrls: ['./list.component.scss']
 })
 export class ListComponent {
 
-  public sessions$: Observable<Session[]> = this.sessionApiService.all();
+    public sessions$: Observable<Session[]>;
 
-  constructor(
-    private sessionService: SessionService,
-    private sessionApiService: SessionApiService
-  ) { }
+    constructor(
+        private sessionService: SessionService,
+        private sessionApiService: SessionApiService
+    ) {
+        this.sessions$ = this.sessionApiService.all();
+    }
 
-  get user(): SessionInformation | undefined {
-    return this.sessionService.sessionInformation;
-  }
+    get user(): SessionInformation | undefined {
+        return this.sessionService.sessionInformation;
+    }
 }

@@ -103,7 +103,7 @@ describe('Me spec', () => {
         cy.get('[data-testId="loginBtn"]').should('exist')
     })
 
-    it('Session creation works properly', () => {
+    it('Session create works properly', () => {
         cy.intercept('POST', '/api/session', {
             body: {
                 "id": 2,
@@ -263,7 +263,7 @@ describe('Me spec', () => {
         cy.get('[data-testId="loginBtn"]').should('exist')
     })
 
-    it('Session update works properly', () => {
+    it('Session delete works properly', () => {
         cy.intercept('DELETE', '/api/session/**', { statusCode: 200 }).as('deleteSessionReq')
 
         cy.visit('/login')
